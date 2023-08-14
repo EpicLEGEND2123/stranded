@@ -1,0 +1,2598 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "portrait",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "7fd38410-6d2f-4542-803c-d3996bdb6fdf",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "stranded",
+    "description": "",
+    "author": "",
+    "windowWidth": 720,
+    "windowHeight": 1280,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Idle Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ac4f72c570459d616d97712b52955964fad912a63e809ce425b99b0dfb2b1189_Fisherman_Idle Down_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/ac4f72c570459d616d97712b52955964fad912a63e809ce425b99b0dfb2b1189_Fisherman_Idle Down_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Idle Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ac4f72c570459d616d97712b52955964fad912a63e809ce425b99b0dfb2b1189_Fisherman_Idle Down_2.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/ac4f72c570459d616d97712b52955964fad912a63e809ce425b99b0dfb2b1189_Fisherman_Idle Down_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Idle Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "16feebeeb325bef036be39e0ae01821b10077cf4567d5739999a789704d3d2b6_Fisherman_Idle Down_3.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/16feebeeb325bef036be39e0ae01821b10077cf4567d5739999a789704d3d2b6_Fisherman_Idle Down_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Idle Down_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "16feebeeb325bef036be39e0ae01821b10077cf4567d5739999a789704d3d2b6_Fisherman_Idle Down_4.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/16feebeeb325bef036be39e0ae01821b10077cf4567d5739999a789704d3d2b6_Fisherman_Idle Down_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Idle Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4d0f1954caa5fdaf96d2b512366a0a7a10a8384c46f79b38474a0b1bca1b2e56_Fisherman_Idle Left_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/4d0f1954caa5fdaf96d2b512366a0a7a10a8384c46f79b38474a0b1bca1b2e56_Fisherman_Idle Left_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Idle Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4d0f1954caa5fdaf96d2b512366a0a7a10a8384c46f79b38474a0b1bca1b2e56_Fisherman_Idle Left_2.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/4d0f1954caa5fdaf96d2b512366a0a7a10a8384c46f79b38474a0b1bca1b2e56_Fisherman_Idle Left_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Idle Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8a115df4dd5307b44c9b8427aa6ac845cf78cdc87a6d63ce5c9b20c49f69d246_Fisherman_Idle Left_3.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/8a115df4dd5307b44c9b8427aa6ac845cf78cdc87a6d63ce5c9b20c49f69d246_Fisherman_Idle Left_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Idle Left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8a115df4dd5307b44c9b8427aa6ac845cf78cdc87a6d63ce5c9b20c49f69d246_Fisherman_Idle Left_4.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/8a115df4dd5307b44c9b8427aa6ac845cf78cdc87a6d63ce5c9b20c49f69d246_Fisherman_Idle Left_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Idle Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "36d71472a451f675c52d01f3b958c5348359cd657c8baefecea43c065f1acdfc_Fisherman_Idle Right_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/36d71472a451f675c52d01f3b958c5348359cd657c8baefecea43c065f1acdfc_Fisherman_Idle Right_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Idle Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "a67bb3ead8542cb36a775f7c0f12f8e9fae9b5e87f48b62d021dd4b29d305462_Fisherman_Idle Right_3.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/a67bb3ead8542cb36a775f7c0f12f8e9fae9b5e87f48b62d021dd4b29d305462_Fisherman_Idle Right_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Idle Right_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "a67bb3ead8542cb36a775f7c0f12f8e9fae9b5e87f48b62d021dd4b29d305462_Fisherman_Idle Right_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/a67bb3ead8542cb36a775f7c0f12f8e9fae9b5e87f48b62d021dd4b29d305462_Fisherman_Idle Right_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Idle Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c3b79f6a98f50c1fdcd55f3c2451c9e086d0655978064cf74a8e504c35ab2efb_Fisherman_Idle Up_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/c3b79f6a98f50c1fdcd55f3c2451c9e086d0655978064cf74a8e504c35ab2efb_Fisherman_Idle Up_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Idle Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c3b79f6a98f50c1fdcd55f3c2451c9e086d0655978064cf74a8e504c35ab2efb_Fisherman_Idle Up_2.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/c3b79f6a98f50c1fdcd55f3c2451c9e086d0655978064cf74a8e504c35ab2efb_Fisherman_Idle Up_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Idle Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "797e41ecf84b6e4c3b68a20bfa4733b10cdd695f9b7e519c361f321211b3a0e1_Fisherman_Idle Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/797e41ecf84b6e4c3b68a20bfa4733b10cdd695f9b7e519c361f321211b3a0e1_Fisherman_Idle Up_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Idle Up_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "797e41ecf84b6e4c3b68a20bfa4733b10cdd695f9b7e519c361f321211b3a0e1_Fisherman_Idle Up_4.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/797e41ecf84b6e4c3b68a20bfa4733b10cdd695f9b7e519c361f321211b3a0e1_Fisherman_Idle Up_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Walk Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "833a38dd485ec22f8dc6327063235c9405a737301240103a7652b3fee2bcdae2_Fisherman_Walk Down_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/833a38dd485ec22f8dc6327063235c9405a737301240103a7652b3fee2bcdae2_Fisherman_Walk Down_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Walk Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1d87b6be204122f097f2044f95cff7e245e6451e90c012fb6f5dafcc5c705540_Fisherman_Walk Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/1d87b6be204122f097f2044f95cff7e245e6451e90c012fb6f5dafcc5c705540_Fisherman_Walk Down_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Walk Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8b0721dc73eefd02b81ed9a22b4233b5585fe1c00da81bf8ec5b660daf968b6a_Fisherman_Walk Down_3.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/8b0721dc73eefd02b81ed9a22b4233b5585fe1c00da81bf8ec5b660daf968b6a_Fisherman_Walk Down_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Walk Down_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1d87b6be204122f097f2044f95cff7e245e6451e90c012fb6f5dafcc5c705540_Fisherman_Walk Down_4.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/1d87b6be204122f097f2044f95cff7e245e6451e90c012fb6f5dafcc5c705540_Fisherman_Walk Down_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Walk Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "7efd38868e13c16a7e2bbf15d1f11ac167a0ad1805b2d5506b3ac637999bf0e3_Fisherman_Walk Left_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/7efd38868e13c16a7e2bbf15d1f11ac167a0ad1805b2d5506b3ac637999bf0e3_Fisherman_Walk Left_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Walk Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2a5eb5c1b77ec0a0960bc2c05e6dca2da03d30a25d8659675086bafa5f0b0344_Fisherman_Walk Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/2a5eb5c1b77ec0a0960bc2c05e6dca2da03d30a25d8659675086bafa5f0b0344_Fisherman_Walk Left_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Walk Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "d9b1bbad066ae2436d1e8884efcbaa8ae68ec5afbfb738a49f00c3af58496791_Fisherman_Walk Left_3.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/d9b1bbad066ae2436d1e8884efcbaa8ae68ec5afbfb738a49f00c3af58496791_Fisherman_Walk Left_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Walk Left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2a5eb5c1b77ec0a0960bc2c05e6dca2da03d30a25d8659675086bafa5f0b0344_Fisherman_Walk Left_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/2a5eb5c1b77ec0a0960bc2c05e6dca2da03d30a25d8659675086bafa5f0b0344_Fisherman_Walk Left_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Walk Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "da26af5a11591dad77b0c2672ab0348c08edb8549ea9f0d9d14452f46d34e8a3_Fisherman_Walk Right_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/da26af5a11591dad77b0c2672ab0348c08edb8549ea9f0d9d14452f46d34e8a3_Fisherman_Walk Right_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Walk Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c01b2d5de84f4a5577e1d58b1759ff4e5721912f35992a0455e9483c988d3db8_Fisherman_Walk Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/c01b2d5de84f4a5577e1d58b1759ff4e5721912f35992a0455e9483c988d3db8_Fisherman_Walk Right_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Walk Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "428cd621cf54299e27606408746745b83d45fd8eb02ce7d0bf55b30401e090d5_Fisherman_Walk Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/428cd621cf54299e27606408746745b83d45fd8eb02ce7d0bf55b30401e090d5_Fisherman_Walk Right_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Walk Right_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c01b2d5de84f4a5577e1d58b1759ff4e5721912f35992a0455e9483c988d3db8_Fisherman_Walk Right_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/c01b2d5de84f4a5577e1d58b1759ff4e5721912f35992a0455e9483c988d3db8_Fisherman_Walk Right_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Walk Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4ff7322cf89b0f62315f516a1712816fd9701872689d3d5660ba1f0b30aaf385_Fisherman_Walk Up_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/4ff7322cf89b0f62315f516a1712816fd9701872689d3d5660ba1f0b30aaf385_Fisherman_Walk Up_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Walk Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "d8f99019228495f9c26a09b1062cf0f0409040629ecf6706284d41e0bd7bec77_Fisherman_Walk Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/d8f99019228495f9c26a09b1062cf0f0409040629ecf6706284d41e0bd7bec77_Fisherman_Walk Up_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Walk Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ae1507a2b06e52014d8a13f0041002a42565a14913a02900084a04225b8959d5_Fisherman_Walk Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/ae1507a2b06e52014d8a13f0041002a42565a14913a02900084a04225b8959d5_Fisherman_Walk Up_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fisherman_Walk Up_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "d8f99019228495f9c26a09b1062cf0f0409040629ecf6706284d41e0bd7bec77_Fisherman_Walk Up_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/d8f99019228495f9c26a09b1062cf0f0409040629ecf6706284d41e0bd7bec77_Fisherman_Walk Up_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Unit Tree.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Unit Tree.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Medieval Hexagon Pack/6df8aa386a27c04794cc712a940aa5904486232e1695ea6089affa5e655b8c3e_Unit Tree.glb",
+          "name": "Unit Tree.glb"
+        }
+      },
+      {
+        "file": "assets/Plant Small3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Plant Small3.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Furniture/plant/023bc5846b435a5c55c36ec03c55b4f8c2fa7336816fa8af3b55dbb635e0f82a_Plant Small3.glb",
+          "name": "Plant Small3.glb"
+        }
+      },
+      {
+        "file": "assets/Bush Berries 2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Bush Berries 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/7cca186df1a00400678359b33de83fe1d005e323baa45644b1a084f725592ec6_Bush Berries 2.glb",
+          "name": "Bush Berries 2.glb"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "isometric_pixel_flat_0068.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "isometric_pixel_flat_0068.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "isometric_pixel_flat_0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "isometric_pixel_flat_0014.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "isometric_pixel_flat_0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "isometric_pixel_flat_0015.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "isometric_pixel_flat_0007.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"isometric_pixel_flat_0007.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "isometric_pixel_flat_0007.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "isometric_pixel_flat_0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "isometric_pixel_flat_0016.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Small-8-Direction-Characters_by_AxulArt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small-8-Direction-Characters_by_AxulArt.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Small-8-Direction-Characters_by_AxulArt2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small-8-Direction-Characters_by_AxulArt2.png",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 196,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled_32scene",
+      "name": "Untitled scene",
+      "r": 25,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 130,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "isometric",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.392516117548823,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "a9676824-4932-4d86-ac62-d98bad0a8103",
+          "width": 150,
+          "x": 0,
+          "y": 1030,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "5b9f7579-74b1-4f49-a2c5-dea35b0b28c0",
+          "width": 150,
+          "x": 150,
+          "y": 1030,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "06f96728-98c6-4301-a90d-89f84c9c45ab",
+          "width": 150,
+          "x": 300,
+          "y": 1030,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "23e5a564-e7f4-4051-8751-2a530a157286",
+          "width": 150,
+          "x": 450,
+          "y": 1030,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "34cbcce2-6d36-4550-9279-cec941ac288b",
+          "width": 150,
+          "x": 600,
+          "y": 1030,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "4ef09f87-429f-4946-86ec-5cfd0dd32815",
+          "width": 150,
+          "x": 0,
+          "y": 905,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "c7f903fe-97ff-4f3c-8fb3-e4f6b3dbde14",
+          "width": 150,
+          "x": 150,
+          "y": 905,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "7a344733-7cb3-47ab-bdf9-60e3fcf593ec",
+          "width": 150,
+          "x": 300,
+          "y": 905,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "e04e9a66-39fe-4009-a45b-231bff86e249",
+          "width": 150,
+          "x": 450,
+          "y": 905,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "f4989d18-957b-4035-901b-d2b60cb511c2",
+          "width": 150,
+          "x": 600,
+          "y": 905,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "e089f57e-469f-4019-9de3-d60cbbc506c6",
+          "width": 181,
+          "x": 750,
+          "y": 905,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "9e70c073-a13b-4e50-a7b7-e88a36cc30b3",
+          "width": 181,
+          "x": 750,
+          "y": 1030,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "8ac7fd4e-e533-485a-a597-86fd085169f9",
+          "width": 150,
+          "x": 2,
+          "y": 780,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "12197842-dcb2-4691-9601-f66e6fa94cfa",
+          "width": 150,
+          "x": 152,
+          "y": 780,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "142dea70-1e1e-46b8-970c-9f9046fbc31f",
+          "width": 150,
+          "x": 302,
+          "y": 780,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "d79f3235-3fa8-4974-aed7-23d885510af3",
+          "width": 150,
+          "x": 452,
+          "y": 780,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "d6450dff-0824-44bb-be53-34fdd06be65a",
+          "width": 150,
+          "x": 602,
+          "y": 780,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "4845543d-7e70-4f32-a725-a51113f1bfed",
+          "width": 150,
+          "x": 2,
+          "y": 655,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "29a08411-ce65-428e-9643-f6f428e4becf",
+          "width": 150,
+          "x": 152,
+          "y": 655,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "e1b40475-0b1b-4095-96ce-78da949bbf50",
+          "width": 150,
+          "x": 302,
+          "y": 655,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "daedfcf0-f38d-4c53-8775-5ff80e2eeb04",
+          "width": 150,
+          "x": 452,
+          "y": 655,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "ef4ea797-49b9-4812-ad75-80400efa5595",
+          "width": 150,
+          "x": 602,
+          "y": 655,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "743e805a-57c6-4e0c-99ca-9ab619811650",
+          "width": 181,
+          "x": 752,
+          "y": 655,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "0cbf9fcc-5233-413f-a0bc-796794ce1242",
+          "width": 181,
+          "x": 752,
+          "y": 780,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "b56e1d73-cc3a-4291-8ba5-6b766e471207",
+          "width": 150,
+          "x": 2,
+          "y": 536,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "fcef37e6-38e3-4c67-9043-7fc7c33280c9",
+          "width": 150,
+          "x": 152,
+          "y": 536,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "5fc4913c-0af1-4d1e-8850-bc1fdfdcd387",
+          "width": 150,
+          "x": 302,
+          "y": 536,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "dcf20d03-a74c-422d-ae68-a8fad0e3dfc3",
+          "width": 150,
+          "x": 452,
+          "y": 536,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "f542cf44-8599-47d4-93ac-bab475eb9597",
+          "width": 150,
+          "x": 602,
+          "y": 536,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "a689caad-af7d-4ed1-a114-0efc3378f142",
+          "width": 150,
+          "x": 2,
+          "y": 411,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "b9fefbee-4542-493c-91a2-7b729eb1b6a8",
+          "width": 150,
+          "x": 152,
+          "y": 413,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "24fdaf50-ac4b-41d1-999b-b58d5fb436f8",
+          "width": 150,
+          "x": 302,
+          "y": 411,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "d90d9ed1-feb0-4159-b0a6-d2a6ac519063",
+          "width": 150,
+          "x": 452,
+          "y": 411,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "dcd8b254-28da-46fa-a689-312bbfbb5a12",
+          "width": 150,
+          "x": 602,
+          "y": 411,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "81fa8874-6503-44af-9a4b-7ed77f1a3828",
+          "width": 181,
+          "x": 752,
+          "y": 411,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "d821759c-c555-4390-8310-7ae553e1b99c",
+          "width": 181,
+          "x": 752,
+          "y": 536,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "81c18f24-8c7b-458f-8bf5-d6617cd997c8",
+          "width": 150,
+          "x": 0,
+          "y": 289,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "b6a92a17-6ee6-4f65-b6b4-b02db01ca15e",
+          "width": 150,
+          "x": 150,
+          "y": 289,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "66aba4da-ec91-42f2-9cb8-0dc89b841af5",
+          "width": 150,
+          "x": 300,
+          "y": 289,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "e03418fe-b5cb-426d-82c9-c4c759a70700",
+          "width": 150,
+          "x": 450,
+          "y": 289,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "e1c5b134-6393-43f4-a399-3de83fc601cc",
+          "width": 150,
+          "x": 600,
+          "y": 289,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "373d8963-84af-4004-830c-20d4f450fbe6",
+          "width": 150,
+          "x": 0,
+          "y": 164,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "260988f1-f751-40da-bd4d-970d81872deb",
+          "width": 150,
+          "x": 150,
+          "y": 164,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "b123c818-4ccf-41d7-8640-1dd38ace3703",
+          "width": 150,
+          "x": 300,
+          "y": 164,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "55835be6-d837-41d3-b4df-d13fcfbb28e7",
+          "width": 150,
+          "x": 450,
+          "y": 164,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "c922616c-6cc0-421d-a8b6-6ea93e273bac",
+          "width": 150,
+          "x": 600,
+          "y": 164,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "b8794992-c9ab-475a-94b3-52903f94eb34",
+          "width": 181,
+          "x": 750,
+          "y": 164,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "2dc61b0b-fe2a-4ed4-aa37-3416f891a4ee",
+          "width": 181,
+          "x": 750,
+          "y": 289,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "3e003c19-a95e-43a4-8cc2-1e4f1e63df83",
+          "width": 150,
+          "x": 3,
+          "y": 162,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "fedd2036-7b24-438d-a802-f480c00c1471",
+          "width": 150,
+          "x": 153,
+          "y": 162,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "cb6896c2-09fb-4899-810a-b5a1e3702931",
+          "width": 150,
+          "x": 303,
+          "y": 162,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "0a02cd46-598b-4959-97e1-2eee5cf49a5b",
+          "width": 150,
+          "x": 453,
+          "y": 162,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "76d3ee99-bc89-434d-8f6a-846cf5fe7c0e",
+          "width": 150,
+          "x": 603,
+          "y": 162,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "a7d6afe4-3599-4362-8823-67157a1dd4a9",
+          "width": 150,
+          "x": 3,
+          "y": 37,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "a1dace80-9644-46b9-92b4-fead4c38ee0b",
+          "width": 150,
+          "x": 153,
+          "y": 37,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "68179e60-386e-4e32-aa72-a96d2e05904a",
+          "width": 150,
+          "x": 303,
+          "y": 37,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "afd56d61-c0af-4158-b067-5f88706198d1",
+          "width": 150,
+          "x": 453,
+          "y": 37,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "8988b296-a63f-4e4a-86d6-01090608ce6c",
+          "width": 150,
+          "x": 603,
+          "y": 37,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "dd6922b9-a0dc-4e7d-aeca-1a26af1ee1b9",
+          "width": 181,
+          "x": 753,
+          "y": 37,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "ab27a1c2-23bb-48af-aeae-5564431298d1",
+          "width": 181,
+          "x": 753,
+          "y": 162,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "452a66b5-3272-4890-b8a9-5491eca01f91",
+          "width": 150,
+          "x": 0,
+          "y": 37,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "97df3cc3-a5d4-4796-8700-7b4556e3e128",
+          "width": 150,
+          "x": 150,
+          "y": 37,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "3a0fab31-569c-4c10-9a0a-82aac0696449",
+          "width": 150,
+          "x": 300,
+          "y": 37,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "03a6a981-9f50-4535-875e-cf19084ec41f",
+          "width": 150,
+          "x": 450,
+          "y": 37,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "d813fed1-fc21-4d79-844e-c3273b610ce2",
+          "width": 150,
+          "x": 600,
+          "y": 37,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "ffe1e89f-1083-4c98-8e69-fd9fe009f46c",
+          "width": 150,
+          "x": 0,
+          "y": -88,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "b8478cf0-66ff-4e03-b945-bd861753aedf",
+          "width": 150,
+          "x": 150,
+          "y": -88,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "30bdbc19-633c-4e82-ad68-62c53790f5cf",
+          "width": 150,
+          "x": 300,
+          "y": -88,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "4f9bd433-7feb-4291-a0d0-d9c7a4826942",
+          "width": 150,
+          "x": 450,
+          "y": -88,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "6ee81306-ca28-48a8-a60e-115933dd43de",
+          "width": 150,
+          "x": 600,
+          "y": -88,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "e4731850-87f1-4805-8663-b875f5d01cfb",
+          "width": 181,
+          "x": 750,
+          "y": -88,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "grass",
+          "persistentUuid": "64be9acc-baeb-49d2-b648-bb2dbd080b25",
+          "width": 181,
+          "x": 750,
+          "y": 37,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 200,
+          "layer": "player\\",
+          "name": "player",
+          "persistentUuid": "6b167e6b-d4e6-4022-9fec-fc7eca2a0048",
+          "width": 900,
+          "x": 84,
+          "y": 602,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "player",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "customIsometryAngle": 30,
+              "deceleration": 800,
+              "ignoreDefaultControls": false,
+              "maxSpeed": 200,
+              "movementAngleOffset": -45,
+              "name": "TopDownMovement",
+              "rotateObject": false,
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "viewpoint": "TrueIsometry"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ac4f72c570459d616d97712b52955964fad912a63e809ce425b99b0dfb2b1189_Fisherman_Idle Down_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 6
+                          },
+                          {
+                            "x": 14,
+                            "y": 6
+                          },
+                          {
+                            "x": 14,
+                            "y": 24
+                          },
+                          {
+                            "x": 0,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ac4f72c570459d616d97712b52955964fad912a63e809ce425b99b0dfb2b1189_Fisherman_Idle Down_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 6
+                          },
+                          {
+                            "x": 14,
+                            "y": 6
+                          },
+                          {
+                            "x": 14,
+                            "y": 24
+                          },
+                          {
+                            "x": 0,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "16feebeeb325bef036be39e0ae01821b10077cf4567d5739999a789704d3d2b6_Fisherman_Idle Down_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 6
+                          },
+                          {
+                            "x": 14,
+                            "y": 6
+                          },
+                          {
+                            "x": 14,
+                            "y": 24
+                          },
+                          {
+                            "x": 0,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "16feebeeb325bef036be39e0ae01821b10077cf4567d5739999a789704d3d2b6_Fisherman_Idle Down_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 6
+                          },
+                          {
+                            "x": 14,
+                            "y": 6
+                          },
+                          {
+                            "x": 14,
+                            "y": 24
+                          },
+                          {
+                            "x": 0,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Walking",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "833a38dd485ec22f8dc6327063235c9405a737301240103a7652b3fee2bcdae2_Fisherman_Walk Down_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 6
+                          },
+                          {
+                            "x": 14,
+                            "y": 6
+                          },
+                          {
+                            "x": 14,
+                            "y": 24
+                          },
+                          {
+                            "x": 0,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "1d87b6be204122f097f2044f95cff7e245e6451e90c012fb6f5dafcc5c705540_Fisherman_Walk Down_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 6
+                          },
+                          {
+                            "x": 14,
+                            "y": 6
+                          },
+                          {
+                            "x": 14,
+                            "y": 24
+                          },
+                          {
+                            "x": 0,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "8b0721dc73eefd02b81ed9a22b4233b5585fe1c00da81bf8ec5b660daf968b6a_Fisherman_Walk Down_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 6
+                          },
+                          {
+                            "x": 14,
+                            "y": 6
+                          },
+                          {
+                            "x": 14,
+                            "y": 24
+                          },
+                          {
+                            "x": 0,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "1d87b6be204122f097f2044f95cff7e245e6451e90c012fb6f5dafcc5c705540_Fisherman_Walk Down_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 6
+                          },
+                          {
+                            "x": 14,
+                            "y": 6
+                          },
+                          {
+                            "x": 14,
+                            "y": 24
+                          },
+                          {
+                            "x": 0,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "b43c809312f5dbe039d26ff2603ed252b3127d5a727d4b18768b7de0ebb85575",
+          "name": "UnitTree",
+          "tags": "",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "depth": 23,
+            "height": 23,
+            "keepAspectRatio": true,
+            "materialType": "Basic",
+            "modelResourceName": "Unit Tree.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 23,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "4e3dc472a33e688aaf30574a554271f6987044e3c8c63f5151beb55af974edbb",
+          "name": "PlantSmall3",
+          "tags": "",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
+            }
+          ],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "depth": 24,
+            "height": 70,
+            "keepAspectRatio": true,
+            "materialType": "Basic",
+            "modelResourceName": "Plant Small3.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 24,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "5ddecdfd313e624496af49029ec8d25c861b01727ae1882d48b5020d441e361a",
+          "name": "BushBerries2",
+          "tags": "",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "depth": 120,
+            "height": 120,
+            "keepAspectRatio": true,
+            "materialType": "Basic",
+            "modelResourceName": "Bush Berries 2.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 0,
+            "rotationY": -90,
+            "rotationZ": 0,
+            "width": 120,
+            "animations": []
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "block",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "isometric_pixel_flat_0068.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 36,
+                            "y": 0
+                          },
+                          {
+                            "x": 36,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "grass",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "isometric_pixel_flat_0014.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 36,
+                            "y": 0
+                          },
+                          {
+                            "x": 36,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "tags": "",
+          "texture": "isometric_pixel_flat_0015.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite2",
+          "tags": "",
+          "texture": "isometric_pixel_flat_0007.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite3",
+          "tags": "",
+          "texture": "isometric_pixel_flat_0016.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Small-8-Direction-Characters_by_AxulArt.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 8
+                          },
+                          {
+                            "x": 127,
+                            "y": 8
+                          },
+                          {
+                            "x": 127,
+                            "y": 262
+                          },
+                          {
+                            "x": 1,
+                            "y": 262
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 8042920,
+          "ambientLightColorR": 16,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "player\\",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "Gustavo Marciano",
+      "category": "Visual effect",
+      "extensionNamespace": "",
+      "fullName": "YSort",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXNvcnQtYXNjZW5kaW5nIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE5IDE3SDIyTDE4IDIxTDE0IDE3SDE3VjNIMTlNMiAxN0gxMlYxOUgyTTYgNVY3SDJWNU0yIDExSDlWMTNIMlYxMVoiIC8+PC9zdmc+",
+      "name": "YSort",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/sort-ascending.svg",
+      "shortDescription": "Create an illusion of depth by setting the Z-order based on the Y position of the object. Useful for isometric games, 2D games with a \"Top-Down\" view, RPG...",
+      "version": "0.1.0",
+      "description": [
+        "Set the depth (Z-order) of the instance to the value of its Y position in the scene, creating an illusion of depth. The origin point of the object is used to determine the Z-order.",
+        "",
+        "This is useful for:",
+        "- isometric games ([open the project online](https://editor.gdevelop.io/?project=example://isometric-game))",
+        "- top-down games ([open the project online](https://editor.gdevelop.io/?project=example://top-down-grid-movement))"
+      ],
+      "origin": {
+        "identifier": "YSort",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "z-order",
+        "y-sort",
+        "depth",
+        "fake-depth",
+        "isometric",
+        "rpg"
+      ],
+      "authorIds": [],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Set the depth (Z-order) of the instance to the value of its Y position in the scene, creating an illusion of depth. The origin point of the object is used to determine the Z-order.",
+          "fullName": "YSort",
+          "name": "YSort",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "This is done in doStepPostEvents because the sort must happens right before the rendering to avoid a 1 frame delay."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Y()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "YSort::YSort",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
