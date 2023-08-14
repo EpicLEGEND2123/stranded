@@ -63,7 +63,33 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "jungle",
+        "kind": "image",
+        "metadata": "",
+        "name": "jungle",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Urbanjungledemo-ymAm.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Urbanjungledemo-ymAm.otf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "jungle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jungle.png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
@@ -90,13 +116,160 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.4789341884535245,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 713,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "98ced948-dd8a-43ff-a891-0ab7edcca89b",
+          "width": 1278,
+          "x": 1,
+          "y": 4,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Title",
+          "persistentUuid": "2dc288e0-f643-46ac-8a5f-e00c7dd4d202",
+          "width": 0,
+          "x": 128,
+          "y": -2112,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Title",
+          "persistentUuid": "174af1b4-e563-445f-8402-59e8f8b18bc3",
+          "width": 0,
+          "x": 402,
+          "y": 81,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "jungle.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1800,
+                            "y": 0
+                          },
+                          {
+                            "x": 1800,
+                            "y": 900
+                          },
+                          {
+                            "x": 0,
+                            "y": 900
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Title",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[shadow=red]Stranded[/shadow] ",
+            "opacity": 255,
+            "fontSize": 100,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "Urbanjungledemo-ymAm.otf",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Heading",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font\n[spacing=12]spaced out[/spacing]\n[outline=yellow]outlined[/outline] [shadow=red]DropShadow[/shadow] ",
+            "opacity": 255,
+            "fontSize": 75,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "Urbanjungledemo-ymAm.otf",
+            "align": "center",
+            "wordWrap": true
+          }
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
