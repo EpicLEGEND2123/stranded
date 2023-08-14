@@ -138,6 +138,87 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
           "name": "mononoki-Regular.ttf"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "isometric_pixel_0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "isometric_pixel_0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "isometric_pixel_flat_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "isometric_pixel_flat_0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "grass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grass.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "isometric_pixel_0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "isometric_pixel_0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprite_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprite_002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/isometric_pixel_0015.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "isometric_pixel_0015",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprite_002.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprite_002",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/jungle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "jungle2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/jungle3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "jungle3",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -149,8 +230,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Untitled_32scene",
-      "name": "Untitled scene",
+      "mangledName": "Start_32Screen",
+      "name": "Start Screen",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -166,28 +247,12 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4789341884535245,
+        "zoomFactor": 0.3437520241612316,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 720,
-          "layer": "",
-          "name": "Background",
-          "persistentUuid": "98ced948-dd8a-43ff-a891-0ab7edcca89b",
-          "width": 1280,
-          "x": 0,
-          "y": 0,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -207,11 +272,11 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Text Layer",
           "name": "Title",
           "persistentUuid": "174af1b4-e563-445f-8402-59e8f8b18bc3",
           "width": 0,
-          "x": 402,
+          "x": 507,
           "y": 81,
           "zOrder": 3,
           "numberProperties": [],
@@ -223,11 +288,11 @@
           "customSize": true,
           "depth": 0,
           "height": 263,
-          "layer": "",
+          "layer": "Text Layer",
           "name": "Heading",
           "persistentUuid": "4a3e038c-7af2-4af5-8146-97a4d29abbc9",
           "width": 668,
-          "x": 336,
+          "x": 437,
           "y": 603,
           "zOrder": 4,
           "numberProperties": [],
@@ -239,13 +304,29 @@
           "customSize": true,
           "depth": 32,
           "height": 64,
-          "layer": "",
+          "layer": "Text Layer",
           "name": "WhiteSquareDecoratedButton",
           "persistentUuid": "55b7cdf9-c0af-4792-8919-30d250ca9b73",
           "width": 192,
-          "x": 540,
-          "y": 394,
+          "x": 630,
+          "y": 387,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 896,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "daf62767-80a0-47de-9dab-bc516c427dcb",
+          "width": 1722,
+          "x": -149,
+          "y": -76,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -264,16 +345,17 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "jungle",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "jungle.png",
+                      "image": "jungle3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -293,16 +375,16 @@
                             "y": 0
                           },
                           {
-                            "x": 1800,
+                            "x": 1900,
                             "y": 0
                           },
                           {
-                            "x": 1800,
-                            "y": 900
+                            "x": 1900,
+                            "y": 950
                           },
                           {
                             "x": 0,
-                            "y": 900
+                            "y": 950
                           }
                         ]
                       ]
@@ -430,9 +512,10 @@
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
+                "WhiteSquareDecoratedButton",
                 ""
               ]
             }
@@ -440,9 +523,11 @@
           "actions": [
             {
               "type": {
-                "value": "PlayerAuthentication::DisplayAuthenticationBanner"
+                "value": "Scene"
               },
               "parameters": [
+                "",
+                "\"World\"",
                 ""
               ]
             }
@@ -476,6 +561,22 @@
             }
           ],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Text Layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
@@ -484,10 +585,1633 @@
           "type": "AutoTyping::BBText_AutoTyping"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "World",
+      "name": "World",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "isometric",
+        "gridWidth": 16,
+        "gridHeight": 20,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.4950840073748929,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "4d18dd2b-415d-4ff4-a3cc-4577a15c6e35",
+          "width": 300,
+          "x": 98,
+          "y": 559,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "c8a94a4d-9d84-4a49-b1a3-4999867e015d",
+          "width": 0,
+          "x": -25,
+          "y": 631,
+          "zOrder": 1000000001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "b8f9c378-028d-42fe-9252-bfbfdeddba9a",
+          "width": 300,
+          "x": 218,
+          "y": 627,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "ff5c49ce-45a5-41aa-83ee-562e4965f84e",
+          "width": 300,
+          "x": 332,
+          "y": 549,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "9cd68f5b-93e8-479a-b47e-d967c2e885e5",
+          "width": 300,
+          "x": 223,
+          "y": 485,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "d4c85781-a5f5-4739-a02f-9b4c1a2f9ddc",
+          "width": 300,
+          "x": 446,
+          "y": 456,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "766f2d7d-b38f-44b3-aa17-b6925cf81650",
+          "width": 300,
+          "x": 345,
+          "y": 405,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "d10dfd11-f319-4cbd-8d5f-3afb94fe16db",
+          "width": 300,
+          "x": 450,
+          "y": 618,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "c883f3f2-126c-4f4a-9f7e-270929b298ab",
+          "width": 300,
+          "x": 566,
+          "y": 536,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "b46e3f53-4a2a-4395-94f6-c8bd3c250d2a",
+          "width": 300,
+          "x": 690,
+          "y": 455,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "839dc344-bfe6-47b7-8b86-8991a4a25de5",
+          "width": 300,
+          "x": 817,
+          "y": 524,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "28d2b20a-713b-4712-a21b-d1b755867f9a",
+          "width": 300,
+          "x": 930,
+          "y": 444,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "8bbf2b17-797c-448a-ad9d-f634492eecba",
+          "width": 300,
+          "x": 1057,
+          "y": 513,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "b2be4792-dbe5-44c5-9a54-1fbe02bf9b20",
+          "width": 300,
+          "x": 818,
+          "y": 523,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "7d87bc5d-cfe3-4e99-b7b4-f650d62adcd4",
+          "width": 300,
+          "x": 700,
+          "y": 602,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "b7cddb80-8aa8-419e-893b-acafdde95e6f",
+          "width": 300,
+          "x": 569,
+          "y": 526,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "3a03c141-c2d8-4130-afac-d3615b2d230d",
+          "width": 300,
+          "x": 942,
+          "y": 593,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "c2517751-8b31-45e3-84c9-d66e6d4f0506",
+          "width": 300,
+          "x": 821,
+          "y": 676,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "673e80ef-efc3-4dc8-9494-b1cb7908635d",
+          "width": 300,
+          "x": 1056,
+          "y": 361,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "01ceb7e4-6ea0-48fb-a0c9-7c9cc30ed597",
+          "width": 300,
+          "x": 1184,
+          "y": 417,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "1be29ca3-aa70-409e-a4a5-a2f4529efba3",
+          "width": 300,
+          "x": 819,
+          "y": 363,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "5687a490-5d15-423d-bf33-0a5648d6af3b",
+          "width": 300,
+          "x": 697,
+          "y": 308,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "dbb8dba0-8807-4a11-a5e4-6f3e28a19633",
+          "width": 300,
+          "x": 933,
+          "y": 278,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "a371662e-b5b6-438a-b244-df5795ec95d5",
+          "width": 300,
+          "x": 569,
+          "y": 231,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "d098ade7-9141-4ab7-bcfa-2dedbee530a4",
+          "width": 300,
+          "x": 444,
+          "y": 165,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "c43db493-9e0e-4122-ac47-6112d2d37967",
+          "width": 300,
+          "x": 316,
+          "y": 240,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "1614e98c-4a48-4d98-aaa9-89a28a2608e1",
+          "width": 300,
+          "x": 320,
+          "y": 91,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "feda0e44-cf05-4a7b-8701-b324da4f7f27",
+          "width": 300,
+          "x": 193,
+          "y": -12,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "1032edb6-9ee2-41f4-a8e9-fb97afab9cc3",
+          "width": 300,
+          "x": -148,
+          "y": 559,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "ec7a05e0-83f4-4301-ab6e-b71d4369b351",
+          "width": 300,
+          "x": -22,
+          "y": 486,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "f29cbf72-c182-4943-97a6-2ecde19630b0",
+          "width": 300,
+          "x": 103,
+          "y": 398,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "adefdfb4-b50d-4f5a-b771-3a4f4e3d2330",
+          "width": 300,
+          "x": -25,
+          "y": 313,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "80ed06d7-b797-4a93-96fd-ea7a0bf8b4ef",
+          "width": 300,
+          "x": -149,
+          "y": 252,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "836d6849-be60-4036-afbb-e279c4051f07",
+          "width": 300,
+          "x": 93,
+          "y": 255,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "61ff614c-87c3-4ab6-9db0-8592135bd73e",
+          "width": 300,
+          "x": 214,
+          "y": 186,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "dc806e58-ad6d-4019-b2d5-639ecef3a57f",
+          "width": 300,
+          "x": 569,
+          "y": 384,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "285474a6-7610-4ca9-8a83-4b9545b63ad7",
+          "width": 300,
+          "x": 453,
+          "y": 311,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "3be3194f-50aa-412c-bf44-8a60403d6b28",
+          "width": 300,
+          "x": 220,
+          "y": 325,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "1bd392da-6240-4f88-a207-f3547724772c",
+          "width": 300,
+          "x": -272,
+          "y": 322,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "48a84513-708b-4208-a8c8-0aef9abea23c",
+          "width": 300,
+          "x": -32,
+          "y": 328,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "00ebe368-792a-4b66-b14f-876c92748927",
+          "width": 300,
+          "x": -153,
+          "y": 397,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "061396d9-7bbb-491b-81bf-ca116d1b5d9a",
+          "width": 300,
+          "x": -28,
+          "y": 173,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "fddd17be-e5c6-4727-a04b-bc3069c785bc",
+          "width": 300,
+          "x": 98,
+          "y": 96,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "f6ef6fd7-dedd-4754-874c-8d3529e62a99",
+          "width": 300,
+          "x": 83,
+          "y": -61,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "c57a58e7-09ab-4352-adce-532df59faeca",
+          "width": 300,
+          "x": -24,
+          "y": 12,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "44d7bf3b-cf32-40cd-b870-393b5ab70028",
+          "width": 300,
+          "x": -143,
+          "y": 88,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "4feb76c7-f90b-438f-98ed-d5353ec9edff",
+          "width": 300,
+          "x": -149,
+          "y": -76,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "d41ef38d-bc8c-4310-b6ff-86a2260fe13a",
+          "width": 300,
+          "x": -27,
+          "y": -156,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "d3715287-f469-4dc8-933c-b8f79d748f4d",
+          "width": 300,
+          "x": 696,
+          "y": 157,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "3652fa7b-ea4e-4e93-b084-d7f4fce30a98",
+          "width": 300,
+          "x": 562,
+          "y": 88,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "2d3fd86e-6d38-4c33-b746-275bfb6b605b",
+          "width": 300,
+          "x": 820,
+          "y": 227,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "6cb7f737-af96-484a-b521-14ac11a6c967",
+          "width": 300,
+          "x": 939,
+          "y": 136,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "c3d8ccc0-6d13-4c68-9708-0615ac8be26d",
+          "width": 300,
+          "x": 814,
+          "y": 79,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "57e37d91-4d2d-4c0d-9779-88f8f1eb9439",
+          "width": 300,
+          "x": 939,
+          "y": 5,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "796303f7-e7fc-45ef-80dc-309317250495",
+          "width": 300,
+          "x": 1066,
+          "y": 76,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "76fed5d2-a2df-4590-9df7-2229eb2f2348",
+          "width": 300,
+          "x": 1058,
+          "y": 208,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "14aee6e9-719d-4834-898b-50efec1b12f8",
+          "width": 300,
+          "x": 1192,
+          "y": 149,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "6fdc4341-54f4-46da-ade3-da3b9c56fdac",
+          "width": 300,
+          "x": 1314,
+          "y": 217,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "fcf13264-3c17-452a-b4af-5f29bec9e3cb",
+          "width": 300,
+          "x": 450,
+          "y": 21,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "8545085c-367c-4ddd-a050-2a704e73b187",
+          "width": 300,
+          "x": 578,
+          "y": -63,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "41defac1-a7d3-4019-97c2-6d89e1c156f3",
+          "width": 300,
+          "x": 322,
+          "y": -69,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "2d60bf75-6ed4-496a-a45a-1aa58e91ee47",
+          "width": 300,
+          "x": 321,
+          "y": -84,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "93ae20e3-c728-492f-b8f5-744c9f9ddada",
+          "width": 300,
+          "x": 696,
+          "y": 8,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "ea4ff1ef-ecc1-4f76-9770-d4394667471f",
+          "width": 300,
+          "x": 800,
+          "y": -80,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "6f9bbe04-aa6e-4b52-b783-ebb63e05832c",
+          "width": 300,
+          "x": 453,
+          "y": -169,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "5d363457-fa7e-4bf5-bb26-71b08af7b0c9",
+          "width": 300,
+          "x": 1058,
+          "y": -82,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "85b35134-f7c1-4f5a-82d6-4d6365997c9f",
+          "width": 300,
+          "x": 1186,
+          "y": -15,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "dc70f4ce-8182-4914-9c1f-3fa2de1bd3d7",
+          "width": 300,
+          "x": 933,
+          "y": -172,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "2eef1a4b-0ff6-4c9f-aee7-4b8e805817c3",
+          "width": 300,
+          "x": 1303,
+          "y": 342,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Layer Ground",
+          "locked": true,
+          "name": "GrassBlock",
+          "persistentUuid": "a677cf51-225b-44bd-99d1-5d9aac9769c8",
+          "width": 300,
+          "x": 1173,
+          "y": 606,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Layer Monkey",
+          "name": "NewSprite",
+          "persistentUuid": "949a022c-193f-4187-8e48-98733fd7ba7b",
+          "width": 0,
+          "x": 104,
+          "y": 503,
+          "zOrder": 1000000002,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "GrassBlock",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
+            }
+          ],
+          "animations": [
+            {
+              "name": "isometric_pixel_0015",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "isometric_pixel_0015",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 24,
+                            "y": 6
+                          },
+                          {
+                            "x": 276,
+                            "y": 6
+                          },
+                          {
+                            "x": 276,
+                            "y": 300
+                          },
+                          {
+                            "x": 24,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "tags": "",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite2",
+          "tags": "",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite3",
+          "tags": "",
+          "texture": "isometric_pixel_flat_0000.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite4",
+          "tags": "",
+          "texture": "grass.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite5",
+          "tags": "",
+          "texture": "isometric_pixel_0016.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "sprite_002",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprite_002",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 6
+                          },
+                          {
+                            "x": 94,
+                            "y": 6
+                          },
+                          {
+                            "x": 94,
+                            "y": 100
+                          },
+                          {
+                            "x": 6,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "JungleTree",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Layer Ground",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Layer Monkey",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ]
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "Gustavo Marciano",
+      "category": "Visual effect",
+      "extensionNamespace": "",
+      "fullName": "YSort",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXNvcnQtYXNjZW5kaW5nIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE5IDE3SDIyTDE4IDIxTDE0IDE3SDE3VjNIMTlNMiAxN0gxMlYxOUgyTTYgNVY3SDJWNU0yIDExSDlWMTNIMlYxMVoiIC8+PC9zdmc+",
+      "name": "YSort",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/sort-ascending.svg",
+      "shortDescription": "Create an illusion of depth by setting the Z-order based on the Y position of the object. Useful for isometric games, 2D games with a \"Top-Down\" view, RPG...",
+      "version": "0.1.0",
+      "description": [
+        "Set the depth (Z-order) of the instance to the value of its Y position in the scene, creating an illusion of depth. The origin point of the object is used to determine the Z-order.",
+        "",
+        "This is useful for:",
+        "- isometric games ([open the project online](https://editor.gdevelop.io/?project=example://isometric-game))",
+        "- top-down games ([open the project online](https://editor.gdevelop.io/?project=example://top-down-grid-movement))"
+      ],
+      "origin": {
+        "identifier": "YSort",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "z-order",
+        "y-sort",
+        "depth",
+        "fake-depth",
+        "isometric",
+        "rpg"
+      ],
+      "authorIds": [],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Set the depth (Z-order) of the instance to the value of its Y position in the scene, creating an illusion of depth. The origin point of the object is used to determine the Z-order.",
+          "fullName": "YSort",
+          "name": "YSort",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "This is done in doStepPostEvents because the sort must happens right before the rendering to avoid a 1 frame delay."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Y()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "YSort::YSort",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
     {
       "author": "",
       "category": "User interface",
